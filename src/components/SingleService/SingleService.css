@@ -1,0 +1,26 @@
+.single-service {
+  margin-top: 20px;
+  position: relative;
+}
+.single-service img {
+  height: 250px;
+  position: relative;
+}
+.inner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  color: lightgray;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: none;
+}
+.single-service:hover .inner {
+  display: block;
+  transition: background-color 0.3s ease-in-out;
+}
+.single-service:hover {
+  transform: scale(1.015);
+  box-shadow: 10px 10px 30px;
+  transition: transform 0.3s ease-in-out;
+}

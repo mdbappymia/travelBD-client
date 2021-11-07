@@ -1,0 +1,12 @@
+.profile-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.nav-brand a {
+  text-decoration: none;
+}
+.nav-brand:hover {
+  color: blue !important;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.home-header {
+  background-image: url(https://i.ibb.co/t3vgwpb/slider.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay {
+  padding: 50px 0;
+  background-color: rgba(24, 21, 21, 0.767);
+}

@@ -1,0 +1,9 @@
+.about-page {
+  background-image: url(https://cdn.pixabay.com/photo/2014/01/11/20/16/bangladesh-242444_960_720.jpg);
+  background-size: cover;
+}
+.about-image {
+  width: 90%;
+  margin-top: 50px;
+  height: 600px;
+}

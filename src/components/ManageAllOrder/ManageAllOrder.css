@@ -1,0 +1,23 @@
+.all-orders-item {
+  background-color: beige;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 15px;
+}
+.all-service-item {
+  background-color: beige;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+@media only screen and (max-width: 666px) {
+  .all-orders-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .all-service-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

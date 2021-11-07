@@ -1,0 +1,14 @@
+.booking-service-image {
+  margin-top: 20px;
+  width: 100%;
+  height: 350px;
+}
+.booking-form {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.booking-form label {
+  margin-top: 20px;
+}
